@@ -6,7 +6,7 @@ For Install Execute the Followings Commands
 php artisan migrate 
 //to access the tinker console
 php artisan tinker
-//to create 100 users ramdoms
+//to create 100 users random for testing
 factory(App\User::class, 100)->create();
 //to exit from tinker 
 exit
